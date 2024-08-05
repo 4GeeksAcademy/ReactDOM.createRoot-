@@ -9,10 +9,8 @@ import "../styles/index.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import SecondsCounter from "./component/home.jsx";
 
-//render your react application
 let digits = [0, 0, 0, 0, 0, 0];
 
-// Función para actualizar el contador
 const updateCounter = () => {
     let shouldContinue = true;
     
@@ -27,7 +25,6 @@ const updateCounter = () => {
     }
 
     if (shouldContinue) {
-        // Empieza de 0
         digits = [0, 0, 0, 0, 0, 0];
     }
 
